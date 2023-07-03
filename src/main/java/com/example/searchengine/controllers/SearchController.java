@@ -13,10 +13,6 @@ import java.nio.charset.StandardCharsets;
 
 @Controller
 public class SearchController {
-    @GetMapping("/search")
-    public String getPage(@ModelAttribute String response) {
-        return "/search";
-    }
 
     @GetMapping("/searchForm")
     public String search(@RequestParam(name = "search") String search, Model model) throws IOException, InterruptedException {
