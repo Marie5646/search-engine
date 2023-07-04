@@ -21,12 +21,7 @@ public class SecurityConfiguration {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests((requests) -> requests
-
-                        /* Pages that do not require authentication
-                         * anyone can visit the home page, register, login, and view ads */
-                        // /event/reviews/create is a public page and can be visited by anyone
-                        .requestMatchers("/").permitAll()
-                        // allow loading of static resources
+                        .requestMatchers("/**").permitAll()
                         .requestMatchers("/css/**", "/js/**", "/images/**").permitAll()
                 )
                 /* Login configuration */
