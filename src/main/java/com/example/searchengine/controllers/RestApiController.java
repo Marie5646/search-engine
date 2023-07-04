@@ -1,6 +1,7 @@
 package com.example.searchengine.controllers;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import java.io.IOException;
@@ -15,6 +16,7 @@ import java.nio.charset.StandardCharsets;
 @CrossOrigin
 @RestController
 @RequestMapping(value = "/search",headers = "Accept=application/json")
+@PropertySource("classpath:application.properties")
 public class RestApiController {
     @Value("${api.key}")
     private String apiKey;
