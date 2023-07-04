@@ -44,6 +44,14 @@ QTNA Search Engine is a powerful search application developed using Spring Boot,
 
 5. Access the application in your web browser at `http://localhost:8080`.
 
+
+6. Enter username : "user"
+
+7. Enter password : (password avaliable in terminal)
+
+
+
+
 ## Usage
 
 Once the application is up and running, you can access it through your web browser. Here are the key actions you can perform:
