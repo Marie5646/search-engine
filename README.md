@@ -1,6 +1,6 @@
 # QTNA Search Engine
 
-QTNA Search Engine is a powerful search application developed using Spring Boot, Thymeleaf, Java, JavaScript, HTML, and CSS. It provides users with the ability to search for questions and answers across various topics.
+QTNA Search Engine is a powerful search web application developed using Spring Boot, Thymeleaf, Java, JavaScript, HTML, and CSS. It provides users with the ability to search for questions and answers across various topics.
 
 ## Table of Contents
 
