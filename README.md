@@ -30,27 +30,31 @@ QTNA Search Engine is a powerful search application developed using Spring Boot,
    cd search-engine
    ```
 
-3. Build the project using Maven:
+3. Create a application properties file in resources input the following Api key (generated specifically for public use):
+   ```shell
+   6afd8aa8e4e9fa5b145b55cc32f7fa29a82c6e84   
+    ```
+
+4. Build the project using Maven:
 
    ```shell
    mvn clean install
    ```
 
-4. Run the project:
+5. Run the project:
 
    ```shell
    mvn spring-boot:run
    ```
 
-5. Access the application in your web browser at `http://localhost:8080`.
+6. Access the application in your web browser at `http://localhost:8080`.
 
 
-6. Enter username : "user"
+7. Enter username : "user"
 
-7. Enter password : (password avaliable in terminal)
+8. Enter password : (password avaliable in terminal)
 
-8. In application properties input the following Api key (generated specifically for public use):
-   6afd8aa8e4e9fa5b145b55cc32f7fa29a82c6e84
+
 
 
 
